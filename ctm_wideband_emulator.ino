@@ -11,7 +11,7 @@ Timer t;
 #define CAN0_ID 0x2B1  // WB1=0x2B1	WB2A=0x2B0	WB2B=0x2B4	Wb2C=0x2B6	WB2D=0x2B6		These are Haltech's own wideband box IDs
 
 #define CAN0_INT 2  // Set INT to pin 2
-MCP_CAN CAN0(9);    // set CS pin to 9
+MCP_CAN CAN0(10);    // set CS pin to 10
 
 
 void setup() {
