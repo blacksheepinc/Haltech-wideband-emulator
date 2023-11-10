@@ -6,6 +6,7 @@ For the Wideband controlling side, here are some examples:
 * SLC 2 Free: https://www.14point7.com/pages/software-and-documentation
 * Bosch CJ125: https://github.com/byrek/arduino-cj125
 * Bylund Bosch CJ125: https://github.com/Bylund/Lambda-Shield-2-Example
+* Great complete example with hardware: https://github.com/oelprinz-org/BL49
 
 ## Haltech product
 * https://www.haltech.com/product/ht-159986-wb2-bosch-dual-channel-can/
