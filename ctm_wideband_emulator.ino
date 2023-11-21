@@ -63,10 +63,10 @@ void CAN0_Broadcast(){
   byte batteryV = 140;                                   //7 byte		V value. y = x*20/255 				Currently I don't know what Haltech ECU does with this value.
   
   //Prepare the can package.
-  widebandInfo[0] = (byte)((lambda1 >> 8) & 0xFF);
-  widebandInfo[1] = (byte)(lambda1 & 0xFF);
-  widebandInfo[2] = (byte)((lambda2 >> 8) & 0xFF);
-  widebandInfo[3] = (byte)(lambda2 & 0xFF);
+  widebandInfo[0] = (byte)(((int)lambda1 >> 8) & 0xFF);
+  widebandInfo[1] = (byte)((int)lambda1 & 0xFF);
+  widebandInfo[2] = (byte)(((int)lambda2 >> 8) & 0xFF);
+  widebandInfo[3] = (byte)((int)lambda2 & 0xFF);
   widebandInfo[4] = wb1Resistor;
   widebandInfo[5] = wb2Resistor;
   widebandInfo[6] = status;
