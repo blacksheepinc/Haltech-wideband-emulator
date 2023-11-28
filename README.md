@@ -1,7 +1,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/blacksheepinc/Haltech-wideband-emulator)
 # <img src="https://github.com/blacksheepinc/Haltech-wideband-emulator/blob/main/logo.png" width="100"> Haltech Wideband Emulator
 
-This example code simulates Haltech's wideband box (both single and dual channel), designed to run on any arduino compatible board with a MCP2515 CAN controller. However it the basic code could be ported or the Protocol could be used for porting to any other CAN compatible MCU eg.ESP32 with a CAN transreceiver.
+This example code simulates Haltech's wideband box (both single and dual channel), designed to run on any arduino compatible board with a MCP2515 CAN controller. However the basic code could be ported or the Protocol could be used for porting to any other CAN compatible MCU eg.ESP32 with a CAN transreceiver.
 For the Wideband controlling side, here are some examples:
 * SLC 2 Free: https://www.14point7.com/pages/software-and-documentation
 * Bosch CJ125: https://github.com/byrek/arduino-cj125
